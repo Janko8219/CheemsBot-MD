@@ -594,7 +594,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
             }
             break
             case 'sc': case 'script': {
-                reply('Script : No Script \n \n\nOwner : MUNAVIR 🤗\n ')
+                reply('Script : 𝐁𝐨𝐭 𝐬𝐜𝐫𝐢𝐩𝐭 𝐧𝐨𝐭 𝐚𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 🌝\n \n\n    \n ')
             }
             break
             case 'chat': {
@@ -886,7 +886,7 @@ break
                 if (!m.isGroup) throw mess.group
                 if (!isBotAdmins) throw mess.botAdmin
                 if (!isAdmins) throw mess.admin
-let teks = `══✪〘 *👥 Tag All* 〙✪══
+let teks = `══✪〘 *👥 𝑻𝑨𝑮𝑨𝑳𝑳 * 〙✪══
  
  ➲ *Message : ${q ? q : 'blank'}*\n\n`
                 for (let mem of participants) {
@@ -1234,7 +1234,7 @@ case 'antilink':
                                 }
                             }]
                       fatihgans = fs.readFileSync('./XeonMedia/cheemspic.jpg')
-                      let txt = `「 MR ʙᴏᴛ ʙʀᴏᴀᴅᴄᴀꜱᴛ 」\n\n${text}`
+                      let txt = `「 𝑴𝑹 𝑩𝑶𝑻 𝑩𝑹𝑶𝑨𝑫𝑪𝑨𝑺𝑻 」\n\n${text}`
                       XeonBotInc.send5ButImg(i, txt, XeonBotInc.user.name, fatihgans, btn)
                     }
                 reply(`Successful Sending Broadcast To ${anu.length} Group(s)`)
@@ -1259,7 +1259,7 @@ case 'antilink':
                                 }
                             }]
                       fatihgans = fs.readFileSync('./XeonMedia/cheemspic.jpg')
-                      let txt = `「 MR ʙᴏᴛ ʙʀᴏᴀᴅᴄᴀꜱᴛ 」\n\n${text}`
+                      let txt = `「 𝑴𝑹 𝑩𝑶𝑻 𝑩𝑹𝑶𝑨𝑫𝑪𝑨𝑺𝑻 」\n\n${text}`
                       XeonBotInc.send5ButImg(yoi, txt, `Broadcast By ${global.pengguna}`, fatihgans, btn)
 		}
 		reply('Broadcast Success')
@@ -1517,15 +1517,15 @@ case 'antilink':
                 let search = await yts(text)
                 let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
                     ngen = `
-⭔ Title : ${anu.title}
-⭔ Ext : Search
-⭔ ID : ${anu.videoId}
-⭔ Duration : ${anu.timestamp}
-⭔ Viewers : ${anu.views}
-⭔ Uploaded : ${anu.ago}
-⭔ Author : ${anu.author.name}
-⭔ Channel : ${anu.author.url}
-⭔ Description : ${anu.description}
+💫 Title : ${anu.title}
+💫 Ext : Search
+💫 ID : ${anu.videoId}
+💫 Duration : ${anu.timestamp}
+💫 Viewers : ${anu.views}
+💫 Uploaded : ${anu.ago}
+💫 Author : ${anu.author.name}
+💫 Channel : ${anu.author.url}
+💫 Description : ${anu.description}
 `
 message = await prepareWAMessageMedia({ image : { url: anu.thumbnail } }, { upload:   XeonBotInc.waUploadToServer })
                 template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -2171,7 +2171,7 @@ View list of message with ${prefix}listmsg`)
 				let buttons = [{
                                 urlButton: {
                                     displayText: 'Report Bug🐛',
-                                    url: 'https://wa.me/916909137213?text=hello+bro+i+found+a+bug+in+your+bot'
+                                    url: 'https://wa.me/918590822912?text=hello+bro+i+found+a+bug+in+your+bot'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2369,7 +2369,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             break
                     case 'bug': case 'report': {
                     	if(!text) throw `Enter The Bug Example\n\n${command} Menu Error `
-                    	XeonBotInc.sendMessage(`916909137213@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
+                    	XeonBotInc.sendMessage(`918590822912@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
 Report Message: ${text}` })
 reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, If You Play With This, Use This Feature Again And Again For No Reason, You Will Be Blocked For Sure !`)
                     }
@@ -2442,7 +2442,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
 
 
-Please Select Button Below
+𝐏𝐥𝐞𝐚𝐬𝐞 𝐒𝐞𝐥𝐞𝐜𝐭 𝐁𝐮𝐭𝐭𝐨𝐧 𝐁𝐞𝐥𝐨𝐰
 `,
                             hydratedButtons: [{
                                 urlButton: {
@@ -2452,7 +2452,7 @@ Please Select Button Below
                             }, {
                             	urlButton: {
                                 displayText: 'Script🌝',
-                                    url: 'ᴺᴼ ｓｃｒｉｐｔ🚶'
+                                    url: 'http://wa.me/918590822912'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2480,7 +2480,7 @@ case 'command':{
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
                     title: `Hi ${pushname}`,
-                    description: `Please Choose The Menu\n\n`,
+                    description: `𝐏𝐥𝐞𝐚𝐬𝐞 𝐂𝐡𝐨𝐨𝐬𝐞 𝐓𝐡𝐞 𝐌𝐞𝐧𝐮\n\n`,
                     buttonText: "Menu",
                     footerText: "_MR ʙᴏᴛ😈_",
                     listType: "SINGLE_SELECT",
